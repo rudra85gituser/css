@@ -1,0 +1,48 @@
+/*font family - allows you to specify the particular font used for text
+many font family are available on google
+urbanist ,jost ,poppins*/
+
+body{
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+
+}
+.hero-section{
+    width: 50%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,700;1,300&display=swap');
+
+@font-face {
+    font-family:"rudra font";
+    src: url("./font/Fortune.otf" )format("open type");
+}
+
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 54px;
+    font-weight: 900;
+    font-variant: small-caps;
+
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Urbanist', sans-serif;
+    font-family:"rudra font";
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+}
+a{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+}
+
+/*font size controls the size of text*/
+/*font weight - specify the thickness of charecter range-100 to 900*/
+/*font style - allows style like italics and bold etc.*/
+/*font varient property used to control the varient of fonts*/
+
+/*WE CAM MAKE FONTS BY DA FONTS WEBSITE*/

@@ -1,0 +1,74 @@
+/*1  pixel*/
+
+body{
+    background-color: #fff;
+}
+/*here px are pixel , more pixel will give you more clarity*/
+h1{
+    font-size: 54px;
+    color: purple;
+}
+p{
+    font-size: 36px;
+   
+}
+p{
+    font-size: 44px;
+   
+}
+/*2  percentage*/
+/*1 pixel=100/16=6.25 */
+h1{
+    /*1 pixel=6.25*54 */
+    font-size: 337.5%;
+    color: purple;
+}
+p{
+    font-size: 225%;
+   
+}
+li{
+    font-size: 275%;
+   
+}
+/*3  em */
+/*em is a relative length,in which font size depends upon the parent font size*/
+/*1em = 16 px*/
+h1{
+    /*1 pixel=6.25*54 */
+    font-size: 3.374em;
+    color: purple;
+}
+p{
+    font-size: 2.25em;
+   
+}
+.parent{
+    font-size: 10px;
+}
+li{
+    font-size: 2.75em;
+   
+}
+/*4   root*/
+/* we can directely address to html file*/
+/*16px=100%
+  1px=6.25
+  10 px -62.5%*/
+  /*we define the font size of html size, this font size will be relative to all font size used in code*/
+  /*when we have to change the font size of cade then we do only changes in root
+html{
+    font-size: 10px;
+}
+/*1rem=10px*/
+h1{
+    font-size: 5.4px;
+}
+p{
+    font-size: 3.6em;
+   
+}
+li{
+    font-size: 4.4em;
+   
+}

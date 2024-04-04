@@ -1,0 +1,59 @@
+/*1*/
+h2{
+    color:pink;
+}
+/*2*/
+.para{
+    color:green;
+}
+/*3*/
+#btn{
+    background-color:red;
+    color:white;
+    font-weight:bold;
+}
+/*4*/
+#btn:hover {
+    background-color:black;
+    color:white;
+    font-weight:bold;
+  
+}
+p:hover {
+    background-color:black;
+    color:white;
+    font-weight:bold;
+  
+}
+/* 5 */
+/* shortcut of comment=ctrl+slash */
+/* this is my name  */
+
+/* 6 */
+/* rgb=red green blue */
+/* rgb code=(255,0,0) ,hex (value=FF,0,0) for purest red ,similarly for others*/
+h1{
+    color:rgb(0,0,255)
+}
+/* alpha defines tranparency of color,its value lies between 0-1 
+if we want our red color light then rgb(255,0,0,.5) similarly for others  */
+p{
+    color:rgb(0,0,255,0.5)
+}
+/* hexa color code */
+/* (value=FF,0,0) for purest red ,similarly for others*/
+h2{
+    color:#00ff;
+}
+/* to make text of color fully transparent */
+h3{
+    color:rgb(0,0,255,0);
+    /* or we can also write color:transparent */
+}
+/* parent child color , to make color of para same as heading */
+.hero-section{
+    color:red;
+}
+p{
+    color:currentColor;
+}

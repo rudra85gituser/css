@@ -1,0 +1,27 @@
+body{
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+    font-family: 'Urbanist', sans-serif;
+}
+.hero-section{
+    width: 50%;
+}
+
+
+h1{
+    
+    
+    font-size: 54px;
+    font-weight: 900;
+    text-align: left;
+}
+p{
+    font-size: 36px;
+    font-weight: 400;
+
+}
+a{
+    font-size: 20px;
+    font-weight: 400;
+}
